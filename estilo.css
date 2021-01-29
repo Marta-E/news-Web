@@ -1,0 +1,135 @@
+
+
+
+.topbar {
+  margin: 0 auto;
+  height: 35px;
+  width: 100%;
+  background-color:rgb(129, 211, 177);
+}
+
+.boton{ 
+  font-size: 80%;
+  font-weight: bold;
+  border-left: 1px solid;
+  border-color:rgb(255, 255, 255);
+  position: relative;
+  padding: 12px 12px 8px 12px;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+.boton a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.boton a:hover{
+  color: rgb(255, 244, 244);
+
+}
+
+
+
+.news-box
+{
+
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 20px 30px;
+
+    background-color: #f1f1f1;
+}
+
+.news-box h2
+{
+    font-size: 1.3em;
+     color: rgb(129, 211, 177);
+}
+
+.news-box p
+{
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 0.3em;
+
+    color: #555;
+}
+
+.news-box span
+{
+ 
+  font-size: 12px;
+    color: rgb(148, 148, 148);
+}
+
+.news-box a
+{
+ text-decoration: none;
+  font-size: 12px;
+    color: rgb(26, 167, 136);
+   
+}
+.news-box a:hover {
+  background-color: rgb(182, 182, 182);
+}
+
+
+.footer
+{
+    font-size: 10px;
+    margin-top: 3px;
+    padding-top: 5px;
+    
+    
+height: 20px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.like{
+  width: 20px;
+    float: right;
+}
+.form-container{
+  width: 100%;
+  
+  justify-content: center;
+ margin: auto;
+ display: flex;
+
+
+
+}
+
+.form-box{
+  width: 180px;
+  padding: 12px 5px;
+  float: left;
+  margin: 9 10px 0   0;
+ 
+
+  
+}
+
+.generos{ 
+  box-sizing: border-box;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  float:left;
+}
+
+
+input[type="text"]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="password"]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
